@@ -65,3 +65,29 @@ header nav, #breadcrumb {
         font-size: 16pt;
     }
 }
+
+label[for="neighborhoods-select"] {
+    color: white;
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+label[for="cuisines-select"] {
+    color: white;
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+#map-container a{
+    color: black;
+}
+
+#footer{
+    color: white;
+}
+
+#footer a{
+    color: white;
+}
