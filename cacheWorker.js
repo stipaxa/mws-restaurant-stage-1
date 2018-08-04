@@ -9,6 +9,14 @@ self.addEventListener('install', function(event) {
         caches.open(cache_name).then(function(cache) {
             app_cache = cache;
             console.log('cache open');
+            return cache.addAll([
+                '/', 
+                'img/',
+                'css/responsive.css',
+                'css/styles.css',
+                'data/restaurants.json',
+                'js/main.js'
+            ]);
         })
     );
 });
